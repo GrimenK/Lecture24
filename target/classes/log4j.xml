@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration name="task">
+
+    <Properties>
+        <Property name="logger" value="logs_folder"/>
+    </Properties>
+    <Appenders>
+
+        <Console name="ConsoleAppender">
+            <PatternLayout pattern="{%-5level} %m %n"/>
+        </Console>
+
+        <File name="FileAppenderInfo" fileName="${logger}/logfileInfo.log">
+            <PatternLayout pattern="{%-5level} %m %n"/>
+            <Filters>
+                <ThresholdFilter level="info" onMatch="NEUTRAL" onMismatch="DENY"/>
+            </Filters>
+        </File>
+
+    </Appenders>
+
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="ConsoleAppender" level="all"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
