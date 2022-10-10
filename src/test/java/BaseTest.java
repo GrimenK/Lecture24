@@ -15,7 +15,7 @@ public class BaseTest {
 
     @BeforeClass
     public void SetUp(){
-        objectManager = new ObjectManager();
+        objectManager = ObjectManager.getInstance();
 
         LOG.info("Test started.");
         url = Params.URL;
