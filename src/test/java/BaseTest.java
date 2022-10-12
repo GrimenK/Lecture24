@@ -1,23 +1,23 @@
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
+import webdriver.BusinessObjectManager;
 import webdriver.Driver;
-import webdriver.LoggerManager;
-import webdriver.ObjectManager;
+import webdriver.PageObjectManager;
 
 
 public class BaseTest {
     protected String url;
-    protected ObjectManager objectManager;
-    public final Logger LOG = LogManager.getLogger(getClass().getName());
+    protected BusinessObjectManager businessObjectManager;
+    public static Logger LOG = LogManager.getLogger(BaseTest.class);
 
     @BeforeClass
     public void SetUp(){
-        objectManager = ObjectManager.getInstance();
+        LOG.info("setup");
 
-        LOG.info("Test started.");
+        businessObjectManager = BusinessObjectManager.getInstance();
         url = Params.URL;
         Driver.createDriver();
         get(url);
@@ -25,14 +25,13 @@ public class BaseTest {
 
     @AfterClass
     public void TearDown(){
-       LOG.info("Close and quit driver");
         Driver.getWebDriver().close();
         Driver.getWebDriver().quit();
     }
 
 
     public void get(String url){
-        LOG.info("Open url: " + url);
+        LOG.info("Go to url: " + url);
         Driver.getWebDriver().get(url);
     }
 

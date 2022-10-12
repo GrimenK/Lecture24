@@ -2,22 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08f98b6-f123-411b-bef0-5efd60ea6a65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Params.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Params.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture23.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/AbstractPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/CartPopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/CartPopup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/CatalogPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/FilterTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/FilterTab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/ItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/ItemPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/RozetkaHeaderPannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/RozetkaHeaderPannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webdriver/ObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webdriver/ObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webdriver/LoggerManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webdriver/ObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webdriver/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webdriver/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webdriver/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RozetkaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RozetkaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Params.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Params.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObject/AbstractPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/AbstractPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObject/CartPopup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/CartPopup.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObject/CatalogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/CatalogPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObject/CheckoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/CheckoutPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObject/FilterTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/FilterTab.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObject/ItemPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/ItemPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObject/RozetkaHeaderPannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/RozetkaHeaderPannel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webdriver/ObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webdriver/ObjectManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webdriver/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webdriver/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webdriver/LoggerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webdriver/ObjectManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webdriver/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webdriver/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/RozetkaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RozetkaTest.class" afterDir="false" />
     </list>
@@ -49,8 +64,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -60,7 +75,19 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.Unnamed">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lecture24" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
       <module name="Lecture23" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/xmls/test.xml" />
@@ -78,6 +105,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -93,37 +125,57 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1744" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1665161840589">
+    <state x="1744" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1665423661131">
       <screen x="1440" y="0" width="1680" height="1050" />
     </state>
-    <state x="1744" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665161840589" />
+    <state x="1744" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665423661131" />
+    <state x="2093" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1665496561383">
+      <screen x="1440" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2093" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665496561383" />
     <state x="2054" y="388" width="451" height="282" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1665334913100">
       <screen x="1440" y="0" width="1680" height="1050" />
     </state>
     <state x="2054" y="388" width="451" height="282" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665334913100" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1665399366220">
+    <state x="1990" y="75" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1665509182784">
       <screen x="1440" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665399366220" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665166660261" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1665399366216">
+    <state x="1990" y="75" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665509182784" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1665579655420">
       <screen x="1440" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665399366216" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.25.1440.875/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665166660258" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1665399366215">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665579655420" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1665514745909" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665487085594" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1665579655419">
       <screen x="1440" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665399366215" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.25.1440.875/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665166660256" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1665399366218">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665579655419" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1665514745908" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.25.1440.875/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665487085592" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1665579655418">
       <screen x="1440" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665399366218" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.25.1440.875/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665166660259" />
-    <state x="1959" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1665393305674">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665579655418" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1665514745907" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.25.1440.875/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665487085591" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1665579655420">
       <screen x="1440" y="0" width="1680" height="1050" />
     </state>
-    <state x="1959" y="354" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665393305674" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665579655420" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1665514745908" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.25.1440.875/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665487085593" />
+    <state x="1789" y="161" key="SettingsEditor" timestamp="1665487021660">
+      <screen x="1440" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1789" y="161" key="SettingsEditor/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665487021660" />
+    <state x="1959" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1665564680030">
+      <screen x="1440" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1959" y="354" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665564680030" />
+    <state x="1945" y="248" width="670" height="675" key="run.anything.popup" timestamp="1665487027378">
+      <screen x="1440" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1945" y="248" width="670" height="675" key="run.anything.popup/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1665487027378" />
   </component>
 </project>
